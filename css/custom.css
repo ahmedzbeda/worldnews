@@ -1,0 +1,62 @@
+body{
+    font-family: arial, sans-serif;
+    padding-top: 30px;
+}
+
+.search{
+    position: relative;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.result{
+    width: 100%;
+}
+
+.hint {
+    font-style: italic;
+    color: #999;
+    margin-bottom: 0;
+}
+
+.result div {
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+    background: #fff;
+}
+.result div:hover {
+    background: #f2f2f2;
+}
+
+.card {
+    height: 100%;
+}
+
+#articles-container .box {
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.delete {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight: bold;
+    color: #999;
+}
+
+.delete:hover {
+    color: #d00800;
+}
